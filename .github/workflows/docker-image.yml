@@ -24,4 +24,4 @@ jobs:
       run: docker build . --file Dockerfile --tag drestrepor/lumen9randomquotes:latest
       
     - name: Docker Push
-      run: docker push danielgara/lumen9randomquotes
+      run: docker push drestrepor/lumen9randomquotes
